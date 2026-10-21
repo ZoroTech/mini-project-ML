@@ -1,0 +1,14 @@
+# ML Bench — Machine Learning Experiment Studio
+# Core dependencies (all free, no API keys needed)
+streamlit>=1.46
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+plotly>=5.20
+openpyxl>=3.1
+joblib>=1.3
+
+# Optional: gradient boosting. If this line fails to install on your machine,
+# simply delete it — ML Bench detects the missing package and hides the
+# XGBoost models automatically. Everything else works without it.
+xgboost>=2.0
